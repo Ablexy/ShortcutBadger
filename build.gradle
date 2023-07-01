@@ -5,7 +5,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.0'
+        classpath 'com.android.tools.build:gradle:3.2.0'
     }
     ext {
         POM_NAME = 'ShortcutBadger'
@@ -36,6 +36,7 @@ subprojects {
             google()
         }
         dependencies {
+            //noinspection GradlePluginVersion
             classpath 'com.android.tools.build:gradle:3.1.3'
         }
     }
